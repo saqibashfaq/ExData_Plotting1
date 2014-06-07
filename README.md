@@ -2,6 +2,7 @@
 <b> 1) </b> Make Sure that the data has been downloaded and unzipped at the current working directory. if not done please use the folling commands:
 download.file('http://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip','exdata-data-household_power_consumption.zip')
 unzip('exdata-data-household_power_consumption.zip')
+
 <b> 2) </b> Pleas make sure that the above steps make the data file available with the name 'ousehold_power_consumption.txt' in the current working directory.
 
 <b> 3) </b> Please source the plot code with the following commands in <b>R </b>. These commands assume that the code is present in the present working directory. Please replace with the correct path with the dot '.' if that is not the case.
