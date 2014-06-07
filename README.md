@@ -1,3 +1,25 @@
+## Execution Steps
+<b> 1) </b> Make Sure that the data has been downloaded and unzipped at the current working directory. if not done please use the folling commands:
+download.file('http://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip','exdata-data-household_power_consumption.zip')
+unzip('exdata-data-household_power_consumption.zip')
+<b> 2) </b> Pleas make sure that the above steps make the data file available with the name 'ousehold_power_consumption.txt' in the current working directory.
+
+<b> 3) </b> Please source the plot code with the following commands in <b>R </b>. These commands assume that the code is present in the present working directory. Please replace with the correct path with the dot '.' if that is not the case.
+
+source ('./plot1.R')
+source ('./plot2.R')
+source ('./plot3.R')
+source ('./plot4.R')
+
+<b> 4) </b> Please make sure to remove the existing png images to get the new ones. Use the following command in <b>The TERMINAL </b> to achieve the same.
+rm *.png
+
+<b> 5) </b> Use the following function calls in R to execute the code and get the images in the current working directory.
+
+inputdata<-plot1()
+inputdata<-plot2()
+inputdata<-plot3()
+inputdata<-plot4()
 ## Introduction
 
 This assignment uses data from
